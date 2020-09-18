@@ -1,0 +1,108 @@
+.promo {
+    background: url(../img/main_plane.jpg) center (center/cover) no-repeat;
+    height: 680px;
+    padding: 23px 0 26px 0;
+    &__items {
+        padding: 0 16px 0 16px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 13px;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+
+header ul {
+    display: inline-flex;
+    padding: 37px 0 58px 55px;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+header ul li {
+    padding: 0 10px;
+    border-right: 1px dotted white;
+	&:last-child {
+        border-right: none;
+    }
+}
+header ul li a {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+    &:hover {
+        color: $mc;
+    }
+}
+.questions {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 48px;
+    padding-left: 50px;
+}
+.question {
+    display: inline;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+.tel {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: right;
+    color: #ffffff;
+    &:hover {
+        color: $mc;
+    }
+}
+.titles {
+    padding-bottom: 32px;
+    &__little_title {
+        font-size: 23px;
+        font-weight: 100;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__title {
+        font-size: 65px;
+        font-weight: bold;
+        font-stretch: condensed;
+        text-align: center;
+        color: #ec644b;
+    }
+    &__sub_title {
+        font-size: 37px;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+.lines {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    &__round {
+        width: 6px;
+        height: 6px;
+        margin: 0 7px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+}
+.lines hr {
+    margin: 0;
+    min-width: 395px;
+    border-bottom: none;
+}
+.pad {
+    padding-top: 27px;
+    padding-bottom: 39px;
+}
