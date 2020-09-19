@@ -25,9 +25,9 @@
     &__img {
         height: 56px;
     }
-}
-span {
-    font-size: 16px;
-    font-weight: bold;
-    color: #ec644b;
+    &__descr span {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ec644b;
+    }
 }

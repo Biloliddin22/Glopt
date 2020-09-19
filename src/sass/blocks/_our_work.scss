@@ -1,0 +1,39 @@
+.our_work {
+    padding: 51px 0 57px 0;
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__sub_title hr {
+        border-bottom: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        width: 148px;
+    }
+    &__sub_title {
+        margin-bottom: 37px;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__descr span {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $mc;
+        margin-top: 27px;
+        margin-bottom: 4px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: #3a3a3a;
+    }
+}
