@@ -1,7 +1,7 @@
 .perks_of_work {
-    height: 590px;
+    min-height: 590px;
     background-color: #f3f3f3;
-    padding-top: 58px;
+    padding: 58px 0 51px 0;
     &__main_title {
         font-size: 23px;
         font-weight: bold;
@@ -17,6 +17,11 @@
         text-align: left;
         color: #3a3a3a;
         margin-left: 17px;
+        span {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ec644b;
+        }
     }
     &__items {
         display: flex;
@@ -24,10 +29,5 @@
     }
     &__img {
         height: 56px;
-    }
-    &__descr span {
-        font-size: 16px;
-        font-weight: bold;
-        color: #ec644b;
-    }
+    } 
 }

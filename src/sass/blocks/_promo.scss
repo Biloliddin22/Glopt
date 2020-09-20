@@ -1,6 +1,6 @@
 .promo {
     background: url(../img/main_plane.jpg) center (center/cover) no-repeat;
-    height: 680px;
+    min-height: 680px;
     padding: 23px 0 26px 0;
     &__items {
         padding: 0 16px 0 16px;
@@ -23,21 +23,21 @@ header ul {
     padding: 37px 0 58px 55px;
     list-style-type: none;
     margin-bottom: 0;
-}
-header ul li {
-    padding: 0 10px;
-    border-right: 1px dotted white;
-	&:last-child {
-        border-right: none;
-    }
-}
-header ul li a {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    
-    &:hover {
-        color: $mc;
+    li {
+        padding: 0 10px;
+        border-right: 1px dotted white;
+        &:last-child {
+            border-right: none;
+        }
+        a {
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            
+            &:hover {
+                color: $mc;
+            }
+        }
     }
 }
 .questions {
@@ -96,11 +96,11 @@ header ul li a {
         background-color: #fff;
         border-radius: 3px;
     }
-}
-.lines hr {
-    margin: 0;
-    min-width: 395px;
-    border-bottom: none;
+    hr {
+        margin: 0;
+        min-width: 395px;
+        border-bottom: none;
+    }
 }
 .pad {
     padding-top: 27px;

@@ -1,19 +1,10 @@
 .agent {
     background: url(../img/firstpic.jpg) center (center/cover) no-repeat;
-    height: 342px;
+    min-height: 342px;
+    padding: 58px 0 75px 0;
     &__img {
         display: block;
         margin: 0 auto;
-        padding-top: 58px;
-    }
-    &__descr span {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        font-size: 19px;
-        font-weight: bold;
-        text-align: center;
-        color: #ffffff;
     }
     &__descr {
         margin-top: 20px;
@@ -21,5 +12,14 @@
         font-weight: 300;
         text-align: center;
         color: #ffffff;
+        span {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            font-size: 19px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+        }
     }
 }

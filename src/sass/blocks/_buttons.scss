@@ -3,12 +3,15 @@
     width: 151px;
     height: 44px;
     background-color: $mc;
+    border: none;
     border-radius: 22px;
-    border: solid 1px #ec644b;
     font-size: 12px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
+    &:hover {
+        background-color: #dc5238;
+    }
 }
 .button_2 {
     display: block;
@@ -16,11 +19,48 @@
     width: 230px;
     height: 56px;
     background-color: $mc;
+    border: none;
     border-radius: 28px;
-    border: solid 1px #ec644b;
     font-size: 15px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
+    &:hover {
+        background-color: #dc5238;
+    }
+}
+.button_3 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 160px;
+    height: 44px;
+    border: none;
+    background-color: $mc;
+    border-radius: 22px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+        background-color: #dc5238;
+    }
+}
+.button_4 {
+    width: 180px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 26px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 22px;
+    background-color: $mc;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+        background-color: #dc5238;
+    }
 }
