@@ -1,0 +1,23 @@
+.manager {
+    min-height: 342px;
+    padding: 58px 0 76px 0;
+    background: url(../img/secondpic.jpg) center (center/cover) no-repeat;
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    &__title {
+        margin-bottom: 18px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__sub_title {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+}
