@@ -1,0 +1,31 @@
+.questionss {
+    min-height: 438px;
+    background: url(../img/plane_2.jpg) center (center/cover) no-repeat;
+    padding: 62px 0 72px 0;
+    &__box {
+        width: 896px;
+        background-color: #25333c;
+        margin: 0 auto;
+    }
+    &__bx {
+        width: 896px;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        padding-bottom: 25px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+    &__sub_title {
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-bottom: 18px;
+    }
+}

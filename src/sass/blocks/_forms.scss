@@ -26,3 +26,39 @@
         }
     }
 }
+.questionss {
+    .feed-form {
+        position: relative;
+        padding: 0 40px;
+        padding-top: 18px;
+        input {
+            width: 268px;
+            height: 44px;
+            display: inline-block;
+            padding-left: 28px;
+            border-radius: 22px;
+            border: solid 1px rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+            text-align: left;
+            color: rgba(16, 16, 16, 0.7);
+        }
+        textarea {
+            margin-top: 8px;
+            width: 813px;
+            height: 71px;
+            display: inline-block;
+            padding-left: 28px;
+            padding-top: 14px;
+            border-radius: 8px;
+            border: solid 1px rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;         
+            font-size: 13px;
+            font-weight: 300;
+            text-align: left;
+            color: rgba(16, 16, 16, 0.7);
+            resize: none;
+        }
+    }
+}
