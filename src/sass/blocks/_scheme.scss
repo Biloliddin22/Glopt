@@ -1,0 +1,38 @@
+.scheme {
+    height: 454px;
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__title {
+        margin-bottom: 33px;
+        font-size: 19px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__sub_title {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: $mc;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: #3a3a3a;
+    }
+    &__itemss {
+        width: 232px;
+        margin: 0 20px;
+    }
+    &__flex {
+        display: flex;
+        margin-top: 24px;
+        justify-content: center;
+    }
+}
