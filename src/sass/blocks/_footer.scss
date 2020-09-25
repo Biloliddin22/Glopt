@@ -1,0 +1,53 @@
+.footer {
+    position: relative;
+    min-height: 201px;
+    padding: 24px 0 28px 0;
+    background-color: #25333c;
+    &__title {
+        display: inline-block;
+        padding: 30px 0 0 44px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        color: #ffffff;
+    }
+    .questions2 {
+        top: 38px;
+        margin-left: 205px;
+    }
+    hr {
+        border-bottom: none;
+        width: 1080px;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 19px;
+    }
+    .scratch {
+        display: inline;
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .politics {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+        display: inline-block;
+        margin: 0 337px;
+        &:hover {
+            color: $mc;
+        }
+    }
+    .create {
+        display: inline;
+        font-size: 13px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: right;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
