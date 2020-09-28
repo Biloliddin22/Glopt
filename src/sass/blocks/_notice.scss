@@ -1,0 +1,25 @@
+.notice {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__title {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2e2e2e;
+    }
+    hr {
+        width: 148px;
+        margin: 0;
+        margin: 20px auto;
+        margin-bottom: 17px;    
+        border-bottom: none;
+    }
+    &__sub_title {
+        margin-bottom: 30px;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e; 
+    }
+}

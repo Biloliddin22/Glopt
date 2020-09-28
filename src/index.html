@@ -8,16 +8,16 @@
     <title>Global Opt</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header>
                 <a href="#"><img src="icons/glopt_1.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="#">Преимущества</a></li>
-                    <li><a href="#">Наша работа</a></li>
-                    <li><a href="#">Цены</a></li>
-                    <li><a href="#">Схема работы</a></li>
-                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#perks_of_work">Преимущества</a></li>
+                    <li><a href="#our_work">Наша работа</a></li>
+                    <li><a href="#price">Цены</a></li>
+                    <li><a href="#scheme">Схема работы</a></li>
+                    <li><a href="#notice">Отзывы</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul> 
                 <div class="questions">
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="perks_of_work">
+    <section class="perks_of_work" id="perks_of_work">
         <div class="container">
             <h3 class="perks_of_work__main_title">Преимущества работы с GlobalOpt</h3>
             <div class="row">
@@ -96,7 +96,7 @@
         </div>
     </section>
 
-    <section class="our_work">
+    <section class="our_work" id="our_work">
         <div class="container">
             <h3 class="our_work__title">Наша работа - больше чем просто доставка</>
             <h4 class="our_work__sub_title"><hr>Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза</br>и ваших требований по срокам и бюджету.</h4>
@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h3 class="price__title">Цены на любой вариант доставки</h3>
             <h4 class="price__sub_title"><hr>Перевозки грузов на дальние расстояния без каких-либо ограничений.
@@ -192,7 +192,7 @@
         </div>
     </section>
 
-    <section class="scheme">
+    <section class="scheme" id="scheme">
         <div class="container">
             <h3 class="scheme__title">Схема работы с нами</h3>
             <div class="row">
@@ -237,11 +237,30 @@
         </div>
     </section>
 
-    <!-- <section class="notice">
+    <section class="notice" id="notice">
         <div class="container">
+            <div class="notice__title">отзывы наших клиентов</div><hr>
+            <div class="notice__sub_title">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
 
+            <div class="carousel">
+                <div class="carousel__card">
+                    <img src="icons/people_1.png" alt="Picture" class="carousel__img">
+                    <div class="carousel__name">Дмитрий Иванов</div>
+                    <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+                <div class="carousel__card">
+                    <img src="icons/people_2.png" alt="Picture" class="carousel__img">
+                    <div class="carousel__name">Анисимова Ольга</div>
+                    <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+                <div class="carousel__card">
+                    <img src="icons/people_3.png" alt="Picture" class="carousel__img">
+                    <div class="carousel__name">Сергей Шмелёв</div>
+                    <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+            </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="questionss">
         <div class="container">
@@ -280,6 +299,10 @@
             <div class="create">Создание сайта: <img src="icons/last_logo.png" alt=""></div>
         </div>
     </footer>
+
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
