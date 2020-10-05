@@ -10,6 +10,9 @@
         text-align: center;
         color: #2e2e2e;
     }
+    &__items {
+        margin-bottom: 10px;
+    }
     &__img {
         display: block;
         margin: 0 auto;
@@ -26,7 +29,7 @@
         text-align: center;
         color: #3a3a3a;
     }
-    &__itemss {
+    /* &__itemss {
         width: 232px;
         margin: 0 20px;
     }
@@ -34,5 +37,5 @@
         display: flex;
         margin-top: 24px;
         justify-content: center;
-    }
+    } */
 }

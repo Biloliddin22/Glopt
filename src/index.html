@@ -12,19 +12,25 @@
         <div class="container">
             <header>
                 <a href="#"><img src="icons/glopt_1.png" alt="logo" class="logo"></a>
-                <ul>
-                    <li><a href="#perks_of_work">Преимущества</a></li>
-                    <li><a href="#our_work">Наша работа</a></li>
-                    <li><a href="#price">Цены</a></li>
-                    <li><a href="#scheme">Схема работы</a></li>
-                    <li><a href="#notice">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
+                <ul class="menu">
+                    <li class="menu_item"><a class="menu_link" href="#perks_of_work">Преимущества</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#our_work">Наша работа</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#price">Цены</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#scheme">Схема работы</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#notice">Отзывы</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Контакты</a></li>
                 </ul> 
                 <div class="questions">
                     <div class="question">Есть вопросы?</div>
                     <a href="tel:79264230100" class="tel">+7 (926) 423 01 00</a>
                 </div>
                 <button class="button_1">Перезвоните мне</button>
+                <button class="hidden_button"><img src="icons/button.png" alt=""></button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </header>
             <div class="titles">
                 <h3 class="titles__little_title">Global Opt - логистика полного цикла из Китая в Россию</h3>
@@ -101,16 +107,16 @@
             <h3 class="our_work__title">Наша работа - больше чем просто доставка</>
             <h4 class="our_work__sub_title"><hr>Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза</br>и ваших требований по срокам и бюджету.</h4>
             <div class="row">
-                <div class="our_work__items col-4">
-                    <div class="our_work__img"><img src="img/card_1.jpg" alt="Picture"></div>
+                <div class="our_work__items col-4 col-sm-6">
+                    <div class="our_work__img"><img src="img/card_1.jpg" class="cards" alt="Picture"></div>
                     <div class="our_work__descr"><span>Страховка груза</span>Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
                 </div>
-                <div class="our_work__items col-4">
-                    <div class="our_work__img"><img src="img/card_2.jpg" alt="Picture"></div>
+                <div class="our_work__items col-4 col-sm-6">
+                    <div class="our_work__img"><img src="img/card_2.jpg" class="cards" alt="Picture"></div>
                     <div class="our_work__descr"><span>Логистика последней мили</span>Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.</div>
                 </div>
-                <div class="our_work__items col-4">
-                    <div class="our_work__img"><img src="img/card_3.jpg" alt="Picture"></div>
+                <div class="our_work__items col-4 col-sm-6 offset-sm-3">
+                    <div class="our_work__img"><img src="img/card_3.jpg" class="cards" alt="Picture"></div>
                     <div class="our_work__descr"><span>Мы всегда смотрим вперед</span>Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. </div>
                 </div>
             </div>
@@ -130,16 +136,16 @@
             <h4 class="price__sub_title"><hr>Перевозки грузов на дальние расстояния без каких-либо ограничений.
             </br>Любой груз доставим вовремя. </h4>
             <div class="row">
-                <div class="price__items col-3">
+                <div class="price__items col-3 col-sm-6">
                     <div class="price__border">
                         <div class="price__items_title">Доставка морем</div>
                         <div><img src="icons/icon_14.png" alt="Icon"  class="price__img"></div>
                         <div class="price__cost">Доставка 35-50 дней</br><span>от 0,3$ за 1 кг</span></div>
-                        <div class="price__descr">Морские перевозки грузов из Китая</br> в Россию за 35 дней</br> 
+                        <div class="price__descr">Морские перевозки грузов из Китая в Россию за 35 дней 
                             с прохождением таможни </div>
                     <button class="button_3">Подробнее</button></div>
                 </div>
-                <div class="price__items col-3">
+                <div class="price__items col-3 col-sm-6">
                     <div class="price__border">
                         <div class="price__items_title">Ж/Д доставка</div>
                         <div><img src="icons/icon_15.png" alt="Icon"  class="price__img"></div>
@@ -149,7 +155,7 @@
                         <button class="button_3">Подробнее</button>
                     </div>
                 </div>
-                <div class="price__items col-3">
+                <div class="price__items col-3 col-sm-6">
                     <div class="price__border">
                         <div class="price__items_title">Автодоставка</div>
                         <div><img src="icons/icon_16.png" alt="Icon" class="price__img"></div>
@@ -159,7 +165,7 @@
                         <button class="button_3">Подробнее</button>
                     </div>
                 </div>
-                <div class="price__items col-3">
+                <div class="price__items col-3 col-sm-6">
                     <div class="price__border">
                         <div class="price__items_title">Авиа доставка</div>
                         <div><img src="icons/icon_17.png" alt="Icon" class="price__img"></div>
@@ -172,7 +178,8 @@
             </div>
             <div class="price__stitle">Заказать бесплатную консультацию</div>
             <div class="price__form">
-                <img src="icons/form.png" alt="" class="price__form__img">
+                <img src="icons/icon_18.png" alt="" class="price__form_icon">
+                <img src="icons/form1.png" alt="" class="price__form_img">
                 <form class="feed-form" action="#">
                     <input name="name" required placeholder="Ваше имя..." type="text">
                     <input name="phone" required placeholder="Ваш номер телефона..." type="number">
@@ -196,28 +203,43 @@
         <div class="container">
             <h3 class="scheme__title">Схема работы с нами</h3>
             <div class="row">
-                <div class="scheme__items col-3">
+                <div class="scheme__items col-xl-3 col-sm-4 col-lg-3 col-md-4">
                     <img src="icons/icon_20.png" alt="Icon" class="scheme__img">
                     <div class="scheme__sub_title">Заявка</div>
                     <div class="scheme__descr">Вы оставляете заявку на нашем сайте или звоните нам</div>
                 </div>
-                <div class="scheme__items col-3">
+                <div class="scheme__items col-xl-3 col-sm-4 col-lg-3 col-md-4">
                     <img src="icons/icon_21.png" alt="Icon" class="scheme__img">
                     <div class="scheme__sub_title">Аналитика доставки</div>
                     <div class="scheme__descr">Мы просчитываем варианты доставки Вашего груза</div>
                 </div>
-                <div class="scheme__items col-3">
+                <div class="scheme__items col-xl-3 col-sm-4 col-lg-3 col-md-4">
                     <img src="icons/icon_22.png" alt="Icon" class="scheme__img">
                     <div class="scheme__sub_title">Договор</div>
                     <div class="scheme__descr">Заключаем с Вами договор о поставке груза из Китая</div>
                 </div>
-                <div class="scheme__items col-3">
+                <div class="scheme__items col-xl-3 col-sm-4 col-lg-3 col-md-4">
                     <img src="icons/icon_23.png" alt="Icon" class="scheme__img">
                     <div class="scheme__sub_title">Доставка на наш склад</div>
                     <div class="scheme__descr">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад </div>
                 </div>
+                <div class="scheme__items offset-lg-1 offset-md-0 col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <img src="icons/icon_24.png" alt="Icon" class="scheme__img">
+                    <div class="scheme__sub_title">Проверка груза</div>
+                    <div class="scheme__descr">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
+                </div>
+                <div class="scheme__items col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <img src="icons/icon_25.png" alt="Icon" class="scheme__img">
+                    <div class="scheme__sub_title">Доставка груза</div>
+                    <div class="scheme__descr">Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
+                </div>
+                <div class="scheme__items offset-sm-3 offset-md-3 offset-lg-0 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <img src="icons/icon_26.png" alt="Icon" class="scheme__img">
+                    <div class="scheme__sub_title">Оплата</div>
+                    <div class="scheme__descr">Оплачиваете доставку груза при пoлучении </div>
+                </div>
             </div>
-            <div class="scheme__flex">
+            <!-- <div class="scheme__flex">
                 <div class="scheme__itemss">
                     <img src="icons/icon_24.png" alt="Icon" class="scheme__img">
                     <div class="scheme__sub_title">Проверка груза</div>
@@ -233,7 +255,7 @@
                     <div class="scheme__sub_title">Оплата</div>
                     <div class="scheme__descr">Оплачиваете доставку груза при пoлучении </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -292,7 +314,8 @@
                 <div class="question question2">Есть вопросы?</div>
                 <a href="tel:79264230100" class="tel tel2">+7 (926) 423 01 00</a>
             </div>
-            <button class="button_1 btn2">Перезвоните мне</button> 
+            <button class="button_1 btn2">Перезвоните мне</button>
+            <button class="hidden_button"><img src="icons/button.png" alt=""></button> 
             <hr>
             <div class="scratch">© 2010 Scratch.com.ua</div>
             <a href="3" class="politics">Политика конфидециальности</a>

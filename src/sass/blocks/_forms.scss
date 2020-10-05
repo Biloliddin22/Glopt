@@ -1,14 +1,21 @@
 .price {
     &__form {
         position: relative;
-        &__img {
-            width: 1110px;
-            position: absolute;
+        &_icon {
+            position: sticky;
+            display: block;
+            margin: 0 auto;
             z-index: -1;
+        }
+        &_img {
+            top: 51px;
+            width: 100%;
+            position: absolute;
+            z-index: -2;
         }
         .feed-form {
             padding: 0 148px;
-            padding-top: 120px;
+            padding-top: 17px;
             input {
                 width: 268px;
                 height: 44px;
